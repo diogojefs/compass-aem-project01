@@ -1,1 +1,13 @@
 .cmp-container {}
+
+.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12{
+    position: fixed;
+    height: 80%;
+    top: 10%;
+    bottom: 5%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}

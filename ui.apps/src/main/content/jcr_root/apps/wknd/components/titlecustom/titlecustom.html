@@ -1,0 +1,8 @@
+<div data-sly-use.titlecustom="com.adobe.aem.guides.wknd.core.models.TitleCustom"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-test.hasContent="${!titlecustom.empty}"   
+class="cmp-title">
+    <h2 class="cmp-titlecustom__title">${titlecustom.title}</h2>
+</div>
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>

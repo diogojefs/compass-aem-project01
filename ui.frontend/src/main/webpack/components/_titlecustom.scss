@@ -1,0 +1,25 @@
+.cmp-titlecustom__title {
+    font-family: 'Space Mono';
+    font-style: bold;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .cmp-titlecustom__title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cmp-titlecustom__title {
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cmp-titlecustom__title {
+        font-size: 48px;
+    }
+}

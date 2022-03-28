@@ -1,2 +1,43 @@
 .cmp-experiencefragment {}
-// .cmp-experiencefragment--<name> {}
+
+.cmp-experiencefragment--header { 
+    position: fixed;
+    height: 10%;
+    top: 0;
+    padding-left: 5%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+}
+
+.cmp-experiencefragment--header h1 { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.cmp-experiencefragment--footer { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    height: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

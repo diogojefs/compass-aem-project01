@@ -1,0 +1,15 @@
+.cpm-color__green {
+    color: #FFD059;
+}
+
+.cpm-color__blue {
+    color: #2C254E;
+}
+
+.cpm-button-background-color {
+    background: #333333;
+    transition: all .5s ease;
+    &:hover {
+        background: #61588D;
+    }
+}
